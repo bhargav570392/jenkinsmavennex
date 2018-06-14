@@ -63,12 +63,10 @@
     </pluginManagement>
   </build>
   <distributionManagement>
-  <repositories>
-		<snapshotRepository>
+                <snapshotRepository>
 			<id>deployment</id>
 			<name>Nexus snapshot</name>
 			<url>http://192.168.86.114:8081/repository/snapshots/</url>
 		</snapshotRepository>
-	</repositories>
 	</distributionManagement>
 </project>
