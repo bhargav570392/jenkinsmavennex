@@ -25,6 +25,13 @@
       <version>4.11</version>
       <scope>test</scope>
     </dependency>
+	  <dependency>
+	   <snapshotRepository>
+			<id>deployment</id>
+			<name>Nexus snapshot</name>
+			<url>http://192.168.86.114:8081/repository/snapshots/</url>
+		</snapshotRepository>
+		   </dependency>
   </dependencies>
 
   <build>
@@ -62,11 +69,7 @@
       </plugins>
     </pluginManagement>
   </build>
-  <distributionManagement>
-                <snapshotRepository>
-			<id>deployment</id>
-			<name>Nexus snapshot</name>
-			<url>http://192.168.86.114:8081/repository/snapshots/</url>
-		</snapshotRepository>
-	</distributionManagement>
+ 
+               
+	
 </project>
