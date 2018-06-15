@@ -51,15 +51,15 @@
 	</build>
  <distributionManagement>
 		<repository>
-			<id>release</id>
+			<id>deployment</id>
 			<name>Internal Release Repository</name>
 			<url>dav:http://localhost:8081/repository/release/</url>
 		</repository>
-		<snapshotRepository>
-			<id>snapshots</id>
+		<repository>
+			<id>deployment</id>
 			<name>Internal Snapshot Repository</name>
 			<url>dav:http://localhost:8081/repository/snapshots/</url>
-		</snapshotRepository>
+		</repository>
 	</distributionManagement>
                
 	
