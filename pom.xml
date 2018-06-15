@@ -67,11 +67,6 @@
 			<name>snapshot</name>
 			<url>http://localhost:8081/repository/snapshots/</url>
 	       </repository>
-	       <snapshotrepository>
-			<id>deployment1</id>
-			<name>release</name>
-			<url>http://localhost:8081/repository/release/</url>
-	       </snapshotrepository>
-	   
+	     
 	</distributionManagement>
 </project>
