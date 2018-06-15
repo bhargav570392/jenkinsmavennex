@@ -68,7 +68,7 @@
 			<url>http://localhost:8081/repository/snapshots/</url>
 	    </repository>
 	    <repository>
-			<id>deployment</id>
+			<id>deployment1</id>
 			<name>release</name>
 			<url>http://localhost:8081/repository/release/</url>
 	    </repository>
