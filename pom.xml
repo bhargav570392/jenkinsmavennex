@@ -45,8 +45,6 @@
 			<id>archiva.internal</id>
 			<name>Internal Release Repository</name>
 			<url>dav:http://localhost:8081/repository/release/</url>
-			<username>admin</username>
-			<password>admin123</password>
 		</repository>
 		<snapshotRepository>
 			<id>archiva.snapshots</id>
