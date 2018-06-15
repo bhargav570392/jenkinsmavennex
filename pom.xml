@@ -65,7 +65,7 @@
 	       <repository>
 			<id>deployment</id>
 			<name>snapshot</name>
-			<url>http://192.168.1.79:9001/repository/sample-snap/</url>
+			<url>http://192.168.86.114:8081/repository/snapshots/</url>
 	       </repository>
 	     
 	</distributionManagement>
