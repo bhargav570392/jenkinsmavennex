@@ -60,19 +60,20 @@
 			</plugin>
 		</plugins>
 	</build>
-   
-	<repositories>	
-	    <repository>
+        <distributionmanagement>
+	   <repositories>	
+	       <repository>
 			<id>deployment</id>
 			<name>snapshot</name>
 			<url>http://localhost:8081/repository/snapshots/</url>
-	    </repository>
-	    <repository>
+	       </repository>
+	       <repository>
 			<id>deployment1</id>
 			<name>release</name>
 			<url>http://localhost:8081/repository/release/</url>
-	    </repository>
-	</repositories>
+	       </repository>
+	   </repositories>
+	</distributionmanagement>
 
 
 </project>
