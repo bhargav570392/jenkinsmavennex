@@ -44,18 +44,7 @@
       <skipStaging>true</skipStaging>
    </configuration>
 </plugin>
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-source-plugin</artifactId>
-				<executions>
-					<execution>
-						<id>attach-sources</id>
-						<goals>
-							<goal>jar</goal>
-						</goals>
-					</execution>
-				</executions>
-			</plugin>
+			
 		</plugins>
 		<extensions>
 			<!-- begin - needed for deploying to repository using webdav -->
